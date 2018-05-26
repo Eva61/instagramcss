@@ -1,0 +1,76 @@
+body{
+	background:#DADFE7;
+	margin: 0;
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+
+}
+header{
+	background: #F8F9F9;
+	padding: 15px;
+}
+div{
+	box-sizing: border-box;
+}
+header h1{
+	padding: 0;
+	margin: 0;
+	font-family: 'Luckiest Guy', cursive;
+	display: inline-block;
+	text-align: top;
+}
+div.post{
+	background: #F2F3F4;
+	margin-top: 10px;
+}
+div.post img{
+	width: 100%;
+}
+span.corazon{
+	font-size: 20px;
+}
+span.comment{
+	margin-left: 10px;
+	font-size: 20px;
+}
+span.trespuntos{
+	float: right;
+	margin-top: 0px;
+}
+div.post .post-header div:first-child{
+	display: inline-block; 
+	width: 80%;
+}
+div.post .post-header div:last-child{
+	display: inline-block; 
+	width: 20%;
+	text-align: right;
+	padding: 10px;
+	color: gray;
+}
+div.post h2, div.post p{
+	padding: 10px;
+	margin: 0;
+}
+div.container{
+	width: 600px;
+	margin: auto; /*Cuando se coloca (margin: auto) es para que el div se centre en el centro de la pagina*/
+}
+footer{
+	text-align: center;
+	background: white;
+	margin-top: 15px;
+	padding: 30px;
+}
+footer.img{
+    width: 150px;
+    height: 75px;
+    margin-top: left;
+    color-interpolation: gray;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	margin: auto;
+	color: gray;
+}
